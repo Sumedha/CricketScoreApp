@@ -10,7 +10,112 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/teamAName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Team A Name"
+            android:inputType="textCapWords"
+            android:textAlignment="center" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Runs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/teamARuns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wickets"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/teamAWickets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. of Sixes"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/teamASixes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. of Fours"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/teamAFours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exra Runs"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/teamAExtraRuns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/teamAOneRun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addOneForTeamA"
+            android:text="+1 run" />
+
+        <Button
+            android:id="@+id/teamASix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addSixForTeamA"
+            android:text="Six" />
+
+        <Button
+            android:id="@+id/teamAFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addFourForTeamA"
+            android:text="Four" />
+
+        <Button
+            android:id="@+id/teamAExtra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addExtraForTeamA"
+            android:text="+1 extra" />
+
+        <Button
+            android:id="@+id/teamAWicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Out" />
     </LinearLayout>
 
 
