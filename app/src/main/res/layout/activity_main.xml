@@ -5,9 +5,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.cricketscore.MainActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <EditText
@@ -34,9 +35,9 @@
             android:layout_height="wrap_content"
             android:paddingBottom="4dp"
             android:paddingTop="4dp"
-            android:textColor="#EB1F07"
             android:text="@string/runsDisplayTeamA"
             android:textAlignment="center"
+            android:textColor="#EB1F07"
             android:textSize="50sp" />
 
         <LinearLayout
@@ -190,6 +191,5 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
     </LinearLayout>
-
 
 </RelativeLayout>

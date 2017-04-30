@@ -16,4 +16,20 @@
     <string name="fourrunsTeamA">Four</string>
     <string name="oneExtraRunTeamA">+1 extra</string>
     <string name="outTeamA">Out</string>
+    <string name="teamBName">Team B Name</string>
+    <string name="runsTeamB">Runs</string>
+    <string name="runsDisplayTeamB">0</string>
+    <string name="wicketsTeamB">Wickets</string>
+    <string name="wicketsDisplayTeamB">0</string>
+    <string name="noOfSixesTeamB">No. of Sixes</string>
+    <string name="numberOfSixesDisplayTeamB">0</string>
+    <string name="numberOfFoursTeamB">No. of Fours</string>
+    <string name="numberOfFoursDisplayTeamB">0</string>
+    <string name="extraRunsTeamB">Extra Runs</string>
+    <string name="extraRunsDisplayTeamB">0</string>
+    <string name="oneRunTeamB">+1 run</string>
+    <string name="sixRunsTeamB">Six</string>
+    <string name="fourrunsTeamB">Four</string>
+    <string name="oneExtraRunTeamB">+1 extra</string>
+    <string name="outTeamB">Out</string>
 </resources>
